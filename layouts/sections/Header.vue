@@ -22,7 +22,13 @@
               <n-link class="nav-link" nuxt to="/"> Accueil </n-link>
             </li>
             <li class="nav-item" text>
-              <n-link class="nav-link" nuxt to="#"> Intégration </n-link>
+              <n-link
+                class="nav-link"
+                nuxt
+                :to="{ path: '/', hash: '#AstusTeam' }"
+              >
+                Intégration
+              </n-link>
             </li>
           </ul>
         </div>

@@ -25,13 +25,13 @@
           <h4 class="font-weight-regular font-18">Réseaux sociaux</h4>
 
           <div class="social-icons mt-10">
-            <a href="#">
+            <a href="https://www.facebook.com/astus.insa/" target="_blank">
               <i class="mdi mdi-facebook"></i>
             </a>
             <a href="#">
               <i class="mdi mdi-youtube"></i>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/astus_insa/" target="_blank">
               <i class="mdi mdi-instagram"></i>
             </a>
           </div>

@@ -1,7 +1,8 @@
 <template>
   <div>
     <TcBanner />
-    <TcTeam />
+    <TcFeature />
+    <TcTeam id="AstusTeam" />
   </div>
 </template>
 
@@ -18,7 +19,8 @@ export default {
   },
   components: {
     TcBanner: () => import("@/components/TC/TcBanner"),
-    TcTeam: () => import("@/components/TC/TcTeam")
+    TcTeam: () => import("@/components/TC/TcTeam"),
+    TcFeature: () => import("@/components/TC/TcFeature")
   }
 };
 </script>
