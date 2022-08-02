@@ -9,7 +9,7 @@
         <h1 class="banner-title">ASTUS</h1>
         <v-spacer></v-spacer>
         <v-btn class="d-block d-md-none" text @click="toggleClass()">
-          <v-app-bar-nav-icon class="white--text" />
+          <v-app-bar-nav-icon class="navicon" />
         </v-btn>
         <!-- Desktop view Navigation -->
         <div
@@ -29,6 +29,11 @@
             <li class="nav-item" text>
               <n-link class="nav-link" nuxt to="integration">
                 Intégration
+              </n-link>
+            </li>
+            <li class="nav-item" text>
+              <n-link class="nav-link" nuxt to="departement">
+                Département
               </n-link>
             </li>
           </ul>
@@ -60,3 +65,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.navicon {
+  color: #32517e !important;
+}
+</style>

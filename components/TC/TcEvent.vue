@@ -28,7 +28,7 @@
         ----------------------------------------------- -->
         <v-row class="mt-13" justify="center">
           <v-col cols="12" md="6" lg="4">
-            <v-card class="portfolio-card overflow-hidden" to="astus#header">
+            <v-card class="portfolio-card overflow-hidden" to="astus">
               <div class="portfolio-img">
                 <img
                   src="@/assets/images/portfolio/LogoAstus.png"
@@ -45,10 +45,7 @@
             </v-card>
           </v-col>
           <v-col cols="12" md="6" lg="4">
-            <v-card
-              class="portfolio-card overflow-hidden"
-              to="integration#header"
-            >
+            <v-card class="portfolio-card overflow-hidden" to="integration">
               <div class="portfolio-img">
                 <img
                   src="@/assets/images/portfolio/integration.JPG"
