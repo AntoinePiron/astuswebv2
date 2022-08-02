@@ -1,13 +1,7 @@
 <template>
-  <!-- -----------------------------------------------
-        Start Footer
-  ----------------------------------------------- -->
   <v-footer class="footer">
     <v-container>
       <v-row class="py-0 py-md-15">
-        <!-- -----------------------------------------------
-        First Column
-      ----------------------------------------------- -->
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
           <h4 class="font-weight-regular font-18">Addresse</h4>
           <p class="mt-10">
@@ -15,27 +9,20 @@
             69100 Villeurbanne
           </p>
         </v-col>
-        <!-- -----------------------------------------------
-        Second Column
-      ----------------------------------------------- -->
-        <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
+        <v-col cols="12" sm="12" md="12" lg="3" class="contact px-xs-0">
           <h4 class="font-weight-regular font-18">Contact</h4>
           <p class="mt-10 mb-0">
-            Gmail : <a class="dark-link" href="/">astus.insalyon@gmail.com</a>
-            <br />
-            Zmail : <br />
-            <a class="dark-link" href="/">tc.astus@listes.insa-lyon.fr</a>
+            <a class="dark-link" href="mailto:tc.astus@listes.insa-lyon.fr"
+              >tc.astus@listes.insa-lyon.fr</a
+            >
+            <a class="dark-link" href="mailto:astus.insalyon@gmail.com"
+              >astus.insalyon@gmail.com</a
+            >
           </p>
         </v-col>
-        <!-- -----------------------------------------------
-        Third Column
-      ----------------------------------------------- -->
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0"> </v-col>
-        <!-- -----------------------------------------------
-        Fourth Column
-      ----------------------------------------------- -->
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
-          <h4 class="font-weight-regular font-18">Social</h4>
+          <h4 class="font-weight-regular font-18">Réseaux sociaux</h4>
 
           <div class="social-icons mt-10">
             <a href="#">

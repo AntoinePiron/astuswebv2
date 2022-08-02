@@ -92,6 +92,77 @@
               <div class="social-overlay">
                 <v-img
                   class="profile-pic"
+                  :src="require('@/assets/images/team/rocco.jpg')"
+                  alt="team"
+                />
+                <div class="img-overlay">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h5 class="team-title font-weight-medium font-18">
+                  Rocco Salvatori
+                </h5>
+                <p class="team-subtitle">Secrétaire Général</p>
+              </div>
+              <p>
+                Ses compétences culinaires sont inversement proportionnelles à
+                son charisme. Il est extrêmement charismatique.
+              </p>
+            </v-card>
+          </v-col>
+          <v-col cols="12" md="6" lg="2">
+            <v-card elevation="0" class="team-card overflow-hidden mb-15">
+              <div class="social-overlay">
+                <v-img
+                  class="profile-pic"
+                  :src="require('@/assets/images/team/ilona.jpg')"
+                  alt="team"
+                />
+                <div class="img-overlay">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="mdi mdi-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h5 class="team-title font-weight-medium font-18">
+                  Ilona Brosset
+                </h5>
+                <p class="team-subtitle">Trésorière</p>
+              </div>
+              <p>
+                La seule personne du bureau qui fait des choses sérieuses. La
+                seule personne du bureau qui fait des choppes sérieuses (cf
+                photo)
+              </p>
+            </v-card>
+          </v-col>
+          <v-col cols="12" md="6" lg="2">
+            <v-card elevation="0" class="team-card overflow-hidden mb-15">
+              <div class="social-overlay">
+                <v-img
+                  class="profile-pic"
                   :src="require('@/assets/images/team/claire.jpg')"
                   alt="team"
                 />

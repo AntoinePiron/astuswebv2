@@ -23,9 +23,9 @@
               </h2>
               <p class="white--text op-8 font-weight-regular">
                 Que vous sortiez fraîchement du FIMI ou bien que vous veniez
-                d'une autre école en France vous venez d'entamer une des plus
-                belles formations de France. Comment va se passer l'année ?
-                Comment va se passer l'intégration ? <br />
+                d'une autre école vous venez d'entamer une des plus belles
+                formations de France. Comment va se passer l'année ? Comment va
+                se passer l'intégration ? <br />
                 <em>Toutes ces questions trouveront réponses ici !</em>
               </p>
             </div>
