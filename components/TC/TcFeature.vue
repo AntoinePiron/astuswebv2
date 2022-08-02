@@ -8,7 +8,7 @@
         <v-row justify="center">
           <v-col cols="12" md="10" lg="7">
             <div class="text-center">
-              <v-chip small color="error" text-color="white">
+              <v-chip color="error" text-color="white">
                 Le département
               </v-chip>
               <h2 class="section-title font-weight-medium">

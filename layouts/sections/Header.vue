@@ -3,7 +3,7 @@
     <!-- -----------------------------------------------
           Start Header
     ----------------------------------------------- -->
-    <v-app-bar app absolute class="app-header" flat fixed>
+    <v-app-bar app absolute id="header" class="app-header" flat fixed>
       <v-container class="py-0 fill-height">
         <Logo />
         <h1 class="banner-title">ASTUS</h1>

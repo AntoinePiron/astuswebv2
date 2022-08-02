@@ -8,7 +8,7 @@
         <v-row justify="center">
           <v-col cols="12" md="7" lg="6" class="d-flex align-center">
             <div class="text-center text-md-left">
-              <v-chip small class="bg-dark" text-color="white">
+              <v-chip class="bg-dark" text-color="white">
                 Rentrée 2022
               </v-chip>
               <h2
