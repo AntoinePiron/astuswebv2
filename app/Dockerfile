@@ -1,5 +1,6 @@
 FROM node:16.14-alpine3.15
 
+RUN mkdir -p /astus/website
 WORKDIR /astus/website
 
 COPY package*.json ./

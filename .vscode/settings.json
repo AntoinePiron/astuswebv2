@@ -1,0 +1,8 @@
+{
+    "conventionalCommits.scopes": [
+        "structure",
+        "pages",
+        "astus page",
+        "docker"
+    ]
+}
