@@ -1,7 +1,8 @@
 <template>
   <div>
     <TcAstusText />
-    <TcTeam id="AstusTeam" />
+    <TcTeam />
+    <TcAstusEvents />
   </div>
 </template>
 
@@ -19,7 +20,8 @@ export default {
   },
   components: {
     TcTeam: () => import("@/components/TC/TcTeam"),
-    TcAstusText: () => import("@/components/TC/TcAstusText")
+    TcAstusText: () => import("@/components/TC/TcAstusText"),
+    TcAstusEvents: () => import("@/components/TC/TcAstusEvents")
   }
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="portfolio-component mini-spacer">
+    <div class="portfolio-component bg-extra-light">
       <v-container>
         <!-- -----------------------------------------------
             Start Portfolio Text
