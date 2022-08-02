@@ -2,7 +2,6 @@
   <div>
     <TcBanner />
     <TcFeature />
-    <TcTeam id="AstusTeam" />
   </div>
 </template>
 
@@ -10,7 +9,7 @@
 export default {
   head() {
     return {
-      title: "ASTUS"
+      title: "Accueil"
     };
   },
 
@@ -19,7 +18,6 @@ export default {
   },
   components: {
     TcBanner: () => import("@/components/TC/TcBanner"),
-    TcTeam: () => import("@/components/TC/TcTeam"),
     TcFeature: () => import("@/components/TC/TcFeature")
   }
 };

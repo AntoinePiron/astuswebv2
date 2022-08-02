@@ -22,6 +22,11 @@
               <n-link class="nav-link" nuxt to="/"> Accueil </n-link>
             </li>
             <li class="nav-item" text>
+              <n-link class="nav-link" nuxt to="astus">
+                Présentation Astus
+              </n-link>
+            </li>
+            <li class="nav-item" text>
               <n-link class="nav-link" nuxt to="integration">
                 Intégration
               </n-link>
