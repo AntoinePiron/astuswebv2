@@ -12,19 +12,30 @@ services:
     command: "npm run start"
     networks:
       - nuxt-network
-  web-server:
-   image: nginx:1.17.10-alpine
-   container_name: web-server
-   volumes:
-     - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
-     - web-root:/var/www/blowstack
-   ports:
-     - 80:80
-   networks:
-     nuxt-network:
-   depends_on:
-     - astusweb
-   restart: always
+  nginx:
+    image: nginx:1.15-alpine
+    restart: unless-stopped
+    volumes:
+      - ./data/nginx:/etc/nginx/conf.d
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      nuxt-network:
+    depends_on:
+      - astusweb
+    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+    
+  certbot:
+    image: certbot/certbot
+    restart: unless-stopped
+    volumes:
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+    
 volumes:
  web-root:
  client-build:
