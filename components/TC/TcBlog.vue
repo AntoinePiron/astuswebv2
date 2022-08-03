@@ -64,7 +64,7 @@
                   />
                 </a>
                 <div class="date-badge bg-info-grediant">
-                  Oct <span>23</span>
+                  Mercredi <span>14</span>
                 </div>
               </div>
               <div>
@@ -75,23 +75,11 @@
                     text-decoration-none
                     font-weight-medium font-18
                   "
-                  >New Seminar on Newest Food Recipe from World’s Best</a
+                  >Olympiade TC/GE</a
                 >
                 <p class="mt-10 mb-10">
-                  Business Park, Opp. Corns Sam Restaurant, New Yoark, US
+                  GE c'est nul
                 </p>
-                <a
-                  href="#"
-                  class="
-                    text-themecolor
-                    linking
-                    text-decoration-none
-                    d-flex
-                    align-center
-                  "
-                >
-                  Learn More <i class="mdi mdi-arrow-right"></i>
-                </a>
               </div>
             </v-card>
           </v-col>
