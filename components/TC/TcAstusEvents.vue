@@ -14,7 +14,7 @@
           </div>
         </v-col>
       </v-row>
-      <v-carousel v-model="model" class="mb-5">
+      <v-carousel v-model="model" class="mb-5" :show-arrows="false">
         <v-carousel-item v-for="event in events" :key="event">
           <v-sheet height="110%" tile>
             <v-row class="fill-height" align="center" justify="center">
