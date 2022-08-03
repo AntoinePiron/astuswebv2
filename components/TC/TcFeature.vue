@@ -43,8 +43,8 @@
                   C'est un pilier important pour la plupart des métiers qui nous
                   attendent à la sortie de l'école. Il va consister en
                   l'apprentissage de nombreux langages de programmations à
-                  travers différents projet concret mais aussi le développement
-                  d'un site web en 3e année.
+                  travers différents projets concrets mais aussi le
+                  développement d'un site web en 3e année.
                 </p>
               </v-card-text>
             </v-card>
@@ -58,11 +58,10 @@
                 <h5 class="font-weight-medium font-18">Réseaux</h5>
                 <p class="mt-10 mb-8">
                   Qu'est-ce qu'un protocole de communication ? Comment on
-                  connecte deux machines ensemble afin de les faires discuter ?
-                  Ces matières ne ressemblent à aucune autre que vous avez pu
-                  faire auparavant si vous venez de prépa. Vous allez découvir
-                  les protocoles réseaux, comment ils fonctionnent et vous allez
-                  câbler des switchs (pas la console déso)!
+                  connecte deux machines ensemble afin de les faire discuter ?
+                  Vous allez découvir les protocoles réseaux, comment ils
+                  fonctionnent et vous allez câbler des switchs (pas la console
+                  déso)!
                 </p>
               </v-card-text>
             </v-card>
