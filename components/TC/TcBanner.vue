@@ -19,7 +19,7 @@
                   white--text
                 "
               >
-                BIENVENUE EN TELECOMMUNICATION
+                bienvenue en telecommunication
               </h2>
               <p class="white--text op-8 font-weight-regular">
                 Que vous sortiez fraîchement du FIMI ou bien que vous veniez
