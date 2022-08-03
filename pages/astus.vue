@@ -1,8 +1,8 @@
 <template>
   <div>
     <TcAstusText />
-    <TcTeam />
     <TcAstusEvents />
+    <TcTeam />
   </div>
 </template>
 

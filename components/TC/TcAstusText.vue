@@ -1,30 +1,28 @@
 <template>
-  <div>
-    <div class="mini-spacer bg-extra-light">
-      <v-container>
-        <!-- -----------------------------------------------
+  <div class="bg-astus">
+    <v-container>
+      <!-- -----------------------------------------------
             Start Form Feature Text
         ----------------------------------------------- -->
-        <v-row justify="center">
-          <v-col cols="12" sm="10" md="9" lg="7">
-            <div class="text-center">
-              <h2 class="ui-title font-weight-bold">L'ASTUS ?</h2>
-              <p>
-                Il s'agit de l'Association des élèves du département. Nous avons
-                2 missions : organiser la vie extra-scolaire des élèves ainsi
-                que de maintenir un contact privilégié avec les entreprises
-                partenaires. Ces deux missions donnent lieu à différents
-                évènements tous le long de l'année.
-              </p>
-            </div>
-          </v-col>
-        </v-row>
+      <v-row justify="center">
+        <v-col cols="12" sm="10" md="9" lg="7">
+          <div class="text-center">
+            <h2 class="ui-title font-weight-bold">L'ASTUS ?</h2>
+            <p style="color: black">
+              Il s'agit de l'Association des élèves du département. Nous avons 2
+              missions : organiser la vie extra-scolaire des élèves ainsi que de
+              maintenir un contact privilégié avec les entreprises partenaires.
+              Ces deux missions donnent lieu à différents évènements tous le
+              long de l'année.
+            </p>
+          </div>
+        </v-col>
+      </v-row>
 
-        <!-- -----------------------------------------------
+      <!-- -----------------------------------------------
             End Form Feature Text
         ----------------------------------------------- -->
-      </v-container>
-    </div>
+    </v-container>
   </div>
 </template>
 <script>
@@ -36,3 +34,11 @@ export default {
   methods: {}
 };
 </script>
+
+<style scoped>
+.bg-astus {
+  background-color: #a5beff !important;
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+</style>
