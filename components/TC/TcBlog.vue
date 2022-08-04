@@ -53,41 +53,8 @@
         </v-row>
 
         <!-- -----------------------------------------------
-            End Blog (bloc special pour le wei)
-        ----------------------------------------------- -->
-
-        <v-row class="mt-13" justify="center"> 
-          <v-col cols="12" md="6" lg="4">
-            <v-card elevation="0" class="blog-card overflow-hidden mb-15">
-              <div class="position-relative mb-15">
-                <a href="#">
-                  <v-img
-                    :src="getImgUrl('wei')"
-                    alt="blog"
-                    class="blog-img"
-                  />
-                </a>
-                <div class="date-badge bg-info-grediant-tc">
-                  Jeudi à samedi <span> 22-24 </span>
-                </div>
-              </div>
-              <div>
-                <a
-                  href="#"
-                  class="
-                    blog-title
-                    text-decoration-none
-                    font-weight-medium font-18
-                  "
-                  > WEI </a
-                >
-                <p class="mt-10 mb-10">
-                  Le plus gros évenement de l'intégration
-                </p>
-              </div>
-            </v-card>
-          </v-col>
-        </v-row>      
+            End Blog
+        ----------------------------------------------- -->    
 
       </v-container>
     </div>
@@ -104,6 +71,7 @@ export default {
         {day: "Vendredi", date: "16", title: "Paintball TC vs IF", content: "Obejectif : s'éclater tout en éclatant les spécialistes du no code", image: "paintBall", link: "#TcPaint"},
         {day: "Samedi", date: "17", title: "Journée Interdepart", content: "Rencontrer les departs moins bien", image: "interdepart", link: "#TcInterdepart"},
         {day: "Dimanche", date: "18", title: "Parrains/bizs", content: "Apprendre à connaître ta/ton marraine/parrain", image: "parrainage", link: "#TcParrainage"},
+        {day:"Jeudi à samedi", date: "22-24", title: "WEI", content: "Le meilleur moment de votre inté", image: "wei", link : '/wei'}
       ],
     };
   },
