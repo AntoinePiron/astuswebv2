@@ -200,6 +200,24 @@ h6 {
   background: linear-gradient(90deg, $primary 0, $accent);
 }
 
+.bg-info-grediant-tc {
+  background: #8d37ff;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #8d37ff,
+    #620fce
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#8d37ff),
+    to(#620fce)
+  );
+  background: -webkit-linear-gradient(left, #8d37ff, #620fce);
+  background: linear-gradient(90deg, #8d37ff 0, #620fce);
+}
+
 .bg-danger-grediant {
   background: $danger;
   background: -webkit-linear-gradient(
