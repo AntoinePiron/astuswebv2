@@ -13,7 +13,7 @@
               </h2>
               <p>
                 Vous pouvez consulter les différentes section de la vie dans
-                notre département pour vous préparer à tous les évenements qui
+                votre département pour vous préparer à tous les évenements qui
                 vont arriver dans l'année !
               </p>
             </div>
