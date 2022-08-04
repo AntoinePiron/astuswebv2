@@ -8,10 +8,7 @@
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="section-title font-weight-medium">Intégration</h2>
-              <p>
-                On veut tous s'intégrer vous en TC et moi dans vous
-              </p>
+              <h2 class="section-title font-weight-medium">LES EVENTS</h2>
             </div>
           </v-col>
         </v-row>
@@ -22,93 +19,33 @@
         <!-- -----------------------------------------------
             Start Blog
         ----------------------------------------------- -->
-        <v-row class="mt-13" justify="center">
-          <v-col cols="12" md="6" lg="4">
+        <v-row class="mt-13" justify="center"> 
+          <v-col v-for="(item, i) in items" :key="i" cols="12" md="6" lg="4">
             <v-card elevation="0" class="blog-card overflow-hidden mb-15">
               <div class="position-relative mb-15">
-                <a href="#">
+                <a :href="item.link">
                   <v-img
-                    :src="require('@/assets/images/blog/img1.jpg')"
+                    :src="getImgUrl(item.image)"
                     alt="blog"
                     class="blog-img"
                   />
                 </a>
-                <div class="date-badge bg-info-grediant">
-                  Lundi <span>12</span>
+                <div class="date-badge bg-info-grediant-tc">
+                  {{ item.day }} <span> {{ item.date}} </span>
                 </div>
               </div>
               <div>
                 <a
-                  href="#"
+                  :href="item.link"
                   class="
                     blog-title
                     text-decoration-none
                     font-weight-medium font-18
                   "
-                  >Reperage</a
+                  > {{ item.title }} </a
                 >
                 <p class="mt-10 mb-10">
-                  Faire connaissance avec les bizs femelles
-                </p>
-              </div>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="6" lg="4">
-            <v-card elevation="0" class="blog-card overflow-hidden mb-15">
-              <div class="position-relative mb-15">
-                <a href="#">
-                  <v-img
-                    :src="require('@/assets/images/blog/img2.jpg')"
-                    alt="blog"
-                    class="blog-img"
-                  />
-                </a>
-                <div class="date-badge bg-info-grediant">
-                  Mercredi <span>14</span>
-                </div>
-              </div>
-              <div>
-                <a
-                  href="#"
-                  class="
-                    blog-title
-                    text-decoration-none
-                    font-weight-medium font-18
-                  "
-                  >Olympiade TC/GE</a
-                >
-                <p class="mt-10 mb-10">
-                  GE c'est nul
-                </p>
-              </div>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="6" lg="4">
-            <v-card elevation="0" class="blog-card overflow-hidden mb-15">
-              <div class="position-relative mb-15">
-                <a href="#">
-                  <v-img
-                    :src="require('@/assets/images/blog/img3.jpg')"
-                    alt="blog"
-                    class="blog-img"
-                  />
-                </a>
-                <div class="date-badge bg-info-grediant">
-                  Vendredi <span>16</span>
-                </div>
-              </div>
-              <div>
-                <a
-                  href="#"
-                  class="
-                    blog-title
-                    text-decoration-none
-                    font-weight-medium font-18
-                  "
-                  >Paintball TC vs IF</a
-                >
-                <p class="mt-10 mb-10">
-                  Obejectif : s'éclater tout en éclatant les spécialistes du no code
+                  {{ item.content }}
                 </p>
               </div>
             </v-card>
@@ -116,8 +53,42 @@
         </v-row>
 
         <!-- -----------------------------------------------
-            End Blog
+            End Blog (bloc special pour le wei)
         ----------------------------------------------- -->
+
+        <v-row class="mt-13" justify="center"> 
+          <v-col cols="12" md="6" lg="4">
+            <v-card elevation="0" class="blog-card overflow-hidden mb-15">
+              <div class="position-relative mb-15">
+                <a href="#">
+                  <v-img
+                    :src="getImgUrl('wei')"
+                    alt="blog"
+                    class="blog-img"
+                  />
+                </a>
+                <div class="date-badge bg-info-grediant-tc">
+                  Jeudi à samedi <span> 22-24 </span>
+                </div>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="
+                    blog-title
+                    text-decoration-none
+                    font-weight-medium font-18
+                  "
+                  > WEI </a
+                >
+                <p class="mt-10 mb-10">
+                  Le plus gros évenement de l'intégration
+                </p>
+              </div>
+            </v-card>
+          </v-col>
+        </v-row>      
+
       </v-container>
     </div>
   </div>
@@ -126,8 +97,21 @@
 export default {
   name: "TcBlog",
   data() {
-    return {};
+    return {
+      items: [
+        {day: "Lundi à mercredi", date: "12-14", title: "Découverte", content: "Évenement chills pour apprendre à se connaître", image: 'welcome', link: "#TcWelcome"},
+        {day: "Jeudi", date: "15", title: "Olympiade TC/GE", content: "GE c'est nul", image: "olympiade", link: "#TcOlympiade"},
+        {day: "Vendredi", date: "16", title: "Paintball TC vs IF", content: "Obejectif : s'éclater tout en éclatant les spécialistes du no code", image: "paintBall", link: "#TcPaint"},
+        {day: "Samedi", date: "17", title: "Journée Interdepart", content: "Rencontrer les departs moins bien", image: "interdepart", link: "#TcInterdepart"},
+        {day: "Dimanche", date: "18", title: "Parrains/bizs", content: "Apprendre à connaître ta/ton marraine/parrain", image: "parrainage", link: "#TcParrainage"},
+      ],
+    };
   },
-  methods: {},
+  methods: {
+    getImgUrl(pet) {
+      var images = require.context('@/assets/images/blog/', false, /\.jpg$/)
+      return images('./' + pet + ".jpg")
+    }
+  },
 };
 </script>
