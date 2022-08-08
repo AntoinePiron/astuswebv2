@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="testimonial-component mini-spacer bg-extra-light">
+    <div class="testimonial-component bg-extra-light">
       <v-container>
         <!-- -----------------------------------------------
             Start Testimonial Text

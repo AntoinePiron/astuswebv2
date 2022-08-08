@@ -4,6 +4,7 @@
     <TcWeiText />
     <TcWeiIntroduction />
     <TcTestimonial />
+    <TcWeiFeatures />
   </div>
 </template>
 
@@ -12,7 +13,8 @@ export default {
   components: {
     TcWeiText: () => import("@/components/TC/TcWeiText"),
     TcWeiIntroduction: () => import("@/components/TC/TcWeiIntroduction"),
-    TcTestimonial: () => import("@/components/TC/TcTestimonial")
+    TcTestimonial: () => import("@/components/TC/TcTestimonial"),
+    TcWeiFeatures: () => import("@/components/TC/TcWeiFeatures")
   }
 };
 </script>

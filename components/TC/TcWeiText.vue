@@ -16,6 +16,10 @@
               cette page et les points importants pour passer un super week-end.
               On vous le dit déjà :
               <span class="important">pensez à ramener une tente !</span>
+              N'oubliez pas de consulter la
+              <a href="#notForgot">liste des choses à ne pas oublier</a> en bas
+              de la page ! <br />
+              Les dates d'inscriptions vous serons communiquée ultérieurement.
             </p>
           </div>
         </v-col>
