@@ -1,6 +1,6 @@
 <template>
   <div class="box-wei">
-    <v-row justify="center">
+    <v-row justify="center" align="stretch">
       <v-col cols="12" sm="10" md="9" lg="4" align-self="center">
         <v-img
           class="image-wei"
@@ -59,7 +59,7 @@ export default {
 }
 .text-wei {
   background-color: rgba(150, 150, 150, 0.1);
-  padding: 2vw;
+  padding: 0.5vw;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(189, 189, 189);
 }
@@ -73,5 +73,11 @@ export default {
     height: 35vh;
     width: auto;
   }
+  .text-wei {
+  background-color: rgba(150, 150, 150, 0.1);
+  padding: 2vw;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(189, 189, 189);
+}
 }
 </style>

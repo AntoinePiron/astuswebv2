@@ -3,6 +3,7 @@
     <div class="easter-egg">Nicolas ilénul</div>
     <TcWeiText />
     <TcWeiIntroduction />
+    <TcTestimonial />
   </div>
 </template>
 
@@ -10,7 +11,8 @@
 export default {
   components: {
     TcWeiText: () => import("@/components/TC/TcWeiText"),
-    TcWeiIntroduction: () => import("@/components/TC/TcWeiIntroduction")
+    TcWeiIntroduction: () => import("@/components/TC/TcWeiIntroduction"),
+    TcTestimonial: () => import("@/components/TC/TcTestimonial")
   }
 };
 </script>
