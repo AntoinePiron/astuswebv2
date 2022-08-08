@@ -56,12 +56,15 @@ export default {
 }
 .image-wei {
   border-radius: 4px;
+  height: 42vh;
 }
 .text-wei {
   background-color: rgba(150, 150, 150, 0.1);
   padding: 0.5vw;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(189, 189, 189);
+  height: 42vh;
+  overflow-y: auto;
 }
 @media (max-width: 991px) {
   .box-wei {
@@ -74,10 +77,12 @@ export default {
     width: auto;
   }
   .text-wei {
-  background-color: rgba(150, 150, 150, 0.1);
-  padding: 2vw;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px rgb(189, 189, 189);
-}
+    background-color: rgba(150, 150, 150, 0.1);
+    padding: 2vw;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(189, 189, 189);
+    height: auto;
+    overflow-y: none;
+  }
 }
 </style>
