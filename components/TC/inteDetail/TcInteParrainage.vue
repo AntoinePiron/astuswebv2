@@ -53,8 +53,13 @@ export default {
   data: () => ({
     items: [
       {
-        title: "A vous de voir",
-        content: "Organisez vous avec vos marraines/parrains",
+        title: "Aprem",
+        content: "Activités pour apprendre son/sa futur(e) 4A préféré",
+        icon: "mdi-baseball"
+      },
+      {
+        title: "Soir",
+        content: "Petite bouffe avec tout le départ",
         icon: "mdi-food"
       }
     ]

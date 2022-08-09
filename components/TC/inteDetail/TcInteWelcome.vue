@@ -6,7 +6,7 @@
             Start Pricing Text
         ----------------------------------------------- -->
         <v-row justify="center">
-          <v-col cols="12" sm="10" md="9" lg="7" >
+          <v-col cols="12" sm="10" md="9" lg="7">
             <div class="test">Lundi à mercredi <span> 12-14 </span></div>
             <div class="text-center">
               <h2 class="ui-title font-weight-bold" style="color: #9366ce">
@@ -62,7 +62,7 @@ export default {
       },
       {
         title: "Aprem ",
-        content: "On chill petites activités trkl",
+        content: "On chill petites activités tranquilles",
         icon: "mdi-baseball"
       }
     ]
@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style>
-.col-tc{
+.col-tc {
   border-radius: 10px;
 }
 

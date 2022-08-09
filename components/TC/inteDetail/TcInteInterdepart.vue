@@ -13,8 +13,8 @@
                 Interdepart
               </h2>
               <p>
-                Organiser en plein centre des humas vous pourrez découvrir les
-                autres départs. Il y'aura à manger et plein d'activités. (On a
+                Organisé en plein centre des humas vous pourrez découvrir les
+                autres départs. Il y aura à manger et plein d'activités. (On a
                 pas encore les horaires donc on se base sur ceux de l'année
                 dernière)
               </p>

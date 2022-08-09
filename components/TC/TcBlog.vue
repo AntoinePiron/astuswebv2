@@ -86,8 +86,7 @@ export default {
           day: "Vendredi",
           date: "16",
           title: "Paintball TC vs IF",
-          content:
-            "Obejectif : s'éclater tout en éclatant les spécialistes du no code",
+          content: "Objectif : s'éclater tout en les éclatant",
           image: "paintBall",
           link: "#TcPaint"
         },
@@ -95,7 +94,7 @@ export default {
           day: "Samedi",
           date: "17",
           title: "Journée Interdepart",
-          content: "Rencontrer les departs moins bien",
+          content: "Rencontrer les départs moins bien",
           image: "interdepart",
           link: "#TcInterdepart"
         },
@@ -103,7 +102,7 @@ export default {
           day: "Dimanche",
           date: "18",
           title: "Olympiade TC/GE",
-          content: "GE c'est nul",
+          content: "Montrer à GE qui sait les plus forts",
           image: "olympiade",
           link: "#TcOlympiade"
         },
