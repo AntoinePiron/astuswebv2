@@ -36,10 +36,11 @@
                 WEI
               </n-link>
             </li>
-            <li class="nav-item" text>
-              <n-link class="nav-link" nuxt to="departement">
+            <li class="nav-item" style="color: #fff" text>
+              <!-- <n-link class="nav-link" nuxt to="departement"> -->
                 Département
-              </n-link>
+                (arrive bientot)
+              <!-- </n-link> -->
             </li>
           </ul>
         </div>

@@ -3,7 +3,7 @@
     <TcInteBanner />
     <TcBlog />
 
-    <div style="margin-inline: 1vw">
+    <div style="margin-inline: 1vw" class="bg-tc">
       <v-row class="mt-13" justify="center">
         <v-col v-for="(item, i) in items" :key="i" cols="12" md="6" lg="6">
           <div class="position-relative mb-15">

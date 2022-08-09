@@ -1,6 +1,6 @@
 <template>
   <div id="TcInterdepart">
-    <div class="mini-spacer bg-extra-light">
+    <div class="mini-spacer bg-extra-light col-tc">
       <v-container>
         <!-- -----------------------------------------------
             Start Pricing Text

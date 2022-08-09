@@ -1,12 +1,12 @@
 <template>
   <div id="TcWelcome">
-    <div class="mini-spacer bg-extra-light">
+    <div class="mini-spacer bg-extra-light col-tc">
       <v-container>
         <!-- -----------------------------------------------
             Start Pricing Text
         ----------------------------------------------- -->
         <v-row justify="center">
-          <v-col cols="12" sm="10" md="9" lg="7">
+          <v-col cols="12" sm="10" md="9" lg="7" >
             <div class="test">Lundi à mercredi <span> 12-14 </span></div>
             <div class="text-center">
               <h2 class="ui-title font-weight-bold" style="color: #9366ce">
@@ -72,8 +72,8 @@ export default {
 </script>
 
 <style>
-.timeline-tc {
-  background: white;
+.col-tc{
+  border-radius: 10px;
 }
 
 .test {
