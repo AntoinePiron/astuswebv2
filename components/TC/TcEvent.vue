@@ -59,6 +59,23 @@
               </v-card-text>
             </v-card>
           </v-col>
+          <v-col cols="12" md="6" lg="4">
+            <v-card class="portfolio-card overflow-hidden" to="integration">
+              <div class="portfolio-img">
+                <img
+                  src="@/assets/images/portfolio/wei.JPG"
+                  class="img-fluid"
+                  alt="portfolio"
+                />
+              </div>
+              <v-card-text>
+                <h5 class="font-weight-medium font-18">WEI</h5>
+                <p class="font-14 mb-0">
+                  Infos pratiques sur le week-end d'intégration
+                </p>
+              </v-card-text>
+            </v-card>
+          </v-col>
         </v-row>
 
         <!-- -----------------------------------------------

@@ -3,6 +3,7 @@
     <TcAstusText />
     <TcAstusEvents />
     <TcTeam />
+    <TcGallery />
   </div>
 </template>
 
@@ -21,7 +22,8 @@ export default {
   components: {
     TcTeam: () => import("@/components/TC/TcTeam"),
     TcAstusText: () => import("@/components/TC/TcAstusText"),
-    TcAstusEvents: () => import("@/components/TC/TcAstusEvents")
+    TcAstusEvents: () => import("@/components/TC/TcAstusEvents"),
+    TcGallery: () => import("@/components/TC/TcGallery")
   }
 };
 </script>

@@ -17,7 +17,7 @@
         </v-row>
 
         <v-row class="mt-13" justify="center">
-          <v-col cols="12" md="6" lg="2">
+          <v-col cols="12" sm="6" md="6" lg="2">
             <v-card elevation="0" class="team-card overflow-hidden mb-15 ">
               <div class="social-overlay">
                 <v-img
@@ -52,7 +52,7 @@
               </p>
             </v-card>
           </v-col>
-          <v-col cols="12" md="6" lg="2">
+          <v-col cols="12" sm="6" md="6" lg="2">
             <v-card elevation="0" class="team-card overflow-hidden mb-15">
               <div class="social-overlay">
                 <v-img
@@ -87,7 +87,7 @@
               </p>
             </v-card>
           </v-col>
-          <v-col cols="12" md="6" lg="2">
+          <v-col cols="12" sm="6" md="6" lg="2">
             <v-card elevation="0" class="team-card overflow-hidden mb-15">
               <div class="social-overlay">
                 <v-img
@@ -122,7 +122,7 @@
               </p>
             </v-card>
           </v-col>
-          <v-col cols="12" md="6" lg="2">
+          <v-col cols="12" sm="6" md="6" lg="2">
             <v-card elevation="0" class="team-card overflow-hidden mb-15">
               <div class="social-overlay">
                 <v-img
@@ -158,7 +158,7 @@
               </p>
             </v-card>
           </v-col>
-          <v-col cols="12" md="6" lg="2">
+          <v-col cols="12" sm="6" md="6" lg="2">
             <v-card elevation="0" class="team-card overflow-hidden mb-15">
               <div class="social-overlay">
                 <v-img
@@ -195,9 +195,26 @@
           </v-col>
         </v-row>
       </v-container>
+      <v-row justify="center" class="bg-extra-light">
+        <v-col cols="12" sm="10" md="9" lg="7">
+          <div class="text-center">
+            <h2 class="section-title font-weight-medium">
+              Mais ce n'est pas tout !
+            </h2>
+            <p class="astus-description">
+              Que serait l'Astus sans son équipe ? Evènements, Entreprise,
+              Communication sans eux l'association ne pourrait absolument pas
+              tourner ! Vous aurez la joie de les découvirs à travers les
+              différents évenements organisés par les équipes tous le long de
+              l'année.
+            </p>
+          </div>
+        </v-col>
+      </v-row>
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: "TcTeam",
@@ -207,3 +224,9 @@ export default {
   methods: {}
 };
 </script>
+
+<style scoped>
+.astus-description {
+  font-size: 1.2em;
+}
+</style>
