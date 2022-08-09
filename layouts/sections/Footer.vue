@@ -28,7 +28,10 @@
             <a href="https://www.facebook.com/astus.insa/" target="_blank">
               <i class="mdi mdi-facebook"></i>
             </a>
-            <a href="#">
+            <a
+              href="https://www.youtube.com/channel/UCLcRPICIyMb-8hB6lBuW85A/videos"
+              target="_blank"
+            >
               <i class="mdi mdi-youtube"></i>
             </a>
             <a href="https://www.instagram.com/astus_insa/" target="_blank">
