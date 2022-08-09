@@ -35,7 +35,7 @@ export default {
 </script>
 <style>
 .bg-inte {
-  background: rgba(128, 58, 219, 0.753);
+  background: rgba(203, 158, 232);
   padding-top: 75px;
   padding-bottom: 30px;
 }
