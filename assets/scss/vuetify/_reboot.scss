@@ -218,6 +218,25 @@ h6 {
   background: linear-gradient(90deg, #8d37ff 0, #620fce);
 }
 
+.bg-tc {
+  background: #FBA165;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #FBA165,
+    #c198f7
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#FBA165),
+    to(#c198f7)
+  );
+  background: -webkit-linear-gradient(left, #c198f7, #ffbf95);
+  background: linear-gradient(80deg, #c198f7 0, #ffbf95);
+  border-radius: 1%;
+}
+
 .bg-danger-grediant {
   background: $danger;
   background: -webkit-linear-gradient(
