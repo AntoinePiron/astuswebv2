@@ -63,7 +63,7 @@
             <v-card class="portfolio-card overflow-hidden" to="integration">
               <div class="portfolio-img">
                 <img
-                  src="@/assets/images/portfolio/wei.JPG"
+                  src="@/assets/images/portfolio/wei.jpg"
                   class="img-fluid"
                   alt="portfolio"
                 />
