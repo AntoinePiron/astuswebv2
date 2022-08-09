@@ -36,7 +36,7 @@
               </div>
               <div>
                 <a
-                  :href="item.link"
+                  :to="item.link"
                   class="
                     blog-title
                     text-decoration-none
