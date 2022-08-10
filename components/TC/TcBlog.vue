@@ -112,7 +112,7 @@ export default {
           title: "WEI",
           content: "Le meilleur moment de votre inté",
           image: "wei",
-          link: "/wei"
+          link: "wei"
         }
       ]
     };
