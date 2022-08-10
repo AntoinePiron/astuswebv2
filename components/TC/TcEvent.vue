@@ -60,7 +60,7 @@
             </v-card>
           </v-col>
           <v-col cols="12" md="6" lg="4">
-            <v-card class="portfolio-card overflow-hidden" to="integration">
+            <v-card class="portfolio-card overflow-hidden" to="wei">
               <div class="portfolio-img">
                 <img
                   src="@/assets/images/portfolio/wei.jpg"

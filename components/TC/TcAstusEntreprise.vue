@@ -5,7 +5,9 @@
         <v-col cols="12" sm="10" md="9" lg="7">
           <div class="text-center">
             <p>
-              L'ASTUS organise aussi des évènements un peu plus sérieux, pour votre permettre d'avoir un premier contact avec des entreprises le plus tôt possible:
+              L'ASTUS organise aussi des évènements un peu plus sérieux, pour
+              vous permettre d'avoir un premier contact avec entreprises le plus
+              tôt possible :
             </p>
           </div>
         </v-col>
@@ -46,12 +48,12 @@ export default {
         {
           name: "Visite d’entreprise",
           desc:
-          "Le SNEF l’année passé. Ces visites permettent de découvrir le monde de l’entreprise et de voir des applications directs de ce qui est abordé en cours"
+            "Le SNEF l’année passé. Ces visites permettent de découvrir le monde de l’entreprise et de voir des applications directs de ce qui est abordé en cours"
         },
         {
           name: "Afterwork",
           desc:
-          "quoi de mieux que de partager un verre avec des professionnels pour pouvoir discuter dans une atmosphère sympa ?"        
+            "quoi de mieux que de partager un verre avec des professionnels pour pouvoir discuter dans une atmosphère sympa ?"
         },
         {
           name: "Simulation d’entretien",

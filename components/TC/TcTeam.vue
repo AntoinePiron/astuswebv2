@@ -28,12 +28,18 @@
                 <div class="img-overlay">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.facebook.com/antoine.piron.50/"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.instagram.com/antprn/"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-instagram"></i>
                       </a>
                     </li>
@@ -63,12 +69,18 @@
                 <div class="img-overlay">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.facebook.com/nicolas.guy.31945"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.instagram.com/nicolas_guy01/"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-instagram"></i>
                       </a>
                     </li>
@@ -98,12 +110,18 @@
                 <div class="img-overlay">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.facebook.com/rocco.svtr"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.instagram.com/roccosalvatori/"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-instagram"></i>
                       </a>
                     </li>
@@ -133,12 +151,18 @@
                 <div class="img-overlay">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100009473213767"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.instagram.com/ilona_brst/"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-instagram"></i>
                       </a>
                     </li>
@@ -169,12 +193,18 @@
                 <div class="img-overlay">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.facebook.com/claire.feral.7"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a
+                        href="https://www.instagram.com/claire_feral/"
+                        target="_blank"
+                      >
                         <i class="mdi mdi-instagram"></i>
                       </a>
                     </li>
