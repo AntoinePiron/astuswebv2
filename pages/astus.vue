@@ -2,12 +2,15 @@
   <div>
     <TcAstusText />
     <TcAstusEvents />
+    <TcAstusEntreprise />
     <TcTeam />
     <TcGallery />
   </div>
 </template>
 
 <script>
+import TcAstusEntrepriseVue from '../components/TC/TcAstusEntreprise.vue';
+
 export default {
   scrollToTop: true,
   head() {
@@ -23,7 +26,8 @@ export default {
     TcTeam: () => import("@/components/TC/TcTeam"),
     TcAstusText: () => import("@/components/TC/TcAstusText"),
     TcAstusEvents: () => import("@/components/TC/TcAstusEvents"),
-    TcGallery: () => import("@/components/TC/TcGallery")
+    TcGallery: () => import("@/components/TC/TcGallery"),
+    TcAstusEntreprise: () => import("@/components/TC/TcAstusEntreprise")
   }
 };
 </script>

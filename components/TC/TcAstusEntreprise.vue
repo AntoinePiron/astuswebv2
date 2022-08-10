@@ -4,11 +4,8 @@
       <v-row class="mb-5" justify="center">
         <v-col cols="12" sm="10" md="9" lg="7">
           <div class="text-center">
-            <h2 class="ui-title font-weight-bold">Les évènements</h2>
             <p>
-              Tout au long de l'année l'ASTUS a pour objectif de régaler les
-              membres du départements avec des évènements festifs. Nous allons revenir sur chacun d'entre eux pour vous
-              mettre l'eau à la bouche !
+              L'ASTUS organise aussi des évènements un peu plus sérieux, pour votre permettre d'avoir un premier contact avec des entreprises le plus tôt possible:
             </p>
           </div>
         </v-col>
@@ -47,24 +44,24 @@ export default {
       model: 0,
       events: [
         {
-          name: "WEI",
+          name: "Visite d’entreprise",
           desc:
-            "L'événement de début d'année à ne surtout pas rater. En TC nous avons la chance de le réaliser sur 3 jours (jeudi à samedi). Au programme : des jeux, de la baignade et des moments de convivialités."
+          "Le SNEF l’année passé. Ces visites permettent de découvrir le monde de l’entreprise et de voir des applications directs de ce qui est abordé en cours"
         },
         {
-          name: "POT",
+          name: "Afterwork",
           desc:
-            "Organisé par des élèves volontaires de 3e année le pot a pour but de présenter le département aux élèves du FIMI. L'occasion de se retrouver pour discuter orientation autour d'un cocktail préparé par vos soins ! (Souvent ceux qui font le pot finissent à l'ASTUS d'ailleurs)"
+          "quoi de mieux que de partager un verre avec des professionnels pour pouvoir discuter dans une atmosphère sympa ?"        
         },
         {
-          name: "Soirée retrouvailles",
+          name: "Simulation d’entretien",
           desc:
-            "C'est le premier événement du nouveau mandat fraîchement élu en début d'année (et oui l'ASTUS fonctionne en année civile !). On privatise un bar et on se retrouve tous ensemble pour accueillir chaleureusement tous nos joyeux TC qui étaient partis au S1 en échange."
+            "Des employés de différentes entreprise du monde des télécoms viennent vous faire passer des entretiens fictifs pour vous entraîner et tester votre CV"
         },
         {
-          name: "WEC",
+          name: "Forum des entreprise",
           desc:
-            "Un week-end en fin d'année, du canoë, un super camping : quoi de mieux ? C'est le dernier évènement de l'année scolaire et ça permet de vivre un dernier moment tous ensemble absolument fou !"
+            "Très gros événement du début d’année c’est un forum ou différentes entreprise viennent se présenter. Idéal pour commencer à aborder le monde du travail voir déjà réfléchir a votre futur stage"
         }
       ]
     };
@@ -81,22 +78,22 @@ export default {
   margin-inline: 10%;
 }
 .entire-sheet-0 {
-  background-image: url("@/assets/images/carousel/WEI.jpg");
+  background-image: url("@/assets/images/carousel/company.jpg");
   background-size: 100% auto;
   background-position-y: 50%;
 }
 .entire-sheet-1 {
-  background-image: url("@/assets/images/carousel/pot.jpg");
+  background-image: url("@/assets/images/carousel/afterwork.jpg");
   background-size: 100% auto;
   background-position-y: 75%;
 }
 .entire-sheet-2 {
-  background-image: url("@/assets/images/carousel/retrouvaille.jpg");
+  background-image: url("@/assets/images/carousel/interview.jpg");
   background-size: 100% auto;
   background-position-y: 50%;
 }
 .entire-sheet-3 {
-  background-image: url("@/assets/images/carousel/canoe.jpg");
+  background-image: url("@/assets/images/carousel/forum.jpg");
   background-size: 100% auto;
   background-position-y: 50%;
 }
@@ -107,22 +104,22 @@ export default {
 }
 @media (max-width: 991px) {
   .entire-sheet-0 {
-    background-image: url("@/assets/images/carousel/WEI.jpg");
+    background-image: url("@/assets/images/carousel/company.jpg");
     background-size: auto 100%;
     background-position-x: 50%;
   }
   .entire-sheet-1 {
-    background-image: url("@/assets/images/carousel/pot.jpg");
+    background-image: url("@/assets/images/carousel/afterwork.jpg");
     background-size: auto 100%;
     background-position-x: 50%;
   }
   .entire-sheet-2 {
-    background-image: url("@/assets/images/carousel/retrouvaille.jpg");
+    background-image: url("@/assets/images/carousel/interview.jpg");
     background-size: auto 100%;
     background-position-x: 50%;
   }
   .entire-sheet-3 {
-    background-image: url("@/assets/images/carousel/canoe.jpg");
+    background-image: url("@/assets/images/carousel/forum.jpg");
     background-size: auto 100%;
     background-position-x: 50%;
   }
