@@ -18,7 +18,7 @@
 
         <v-row class="mt-13" justify="center">
           <v-col cols="12" sm="6" md="6" lg="2">
-            <v-card elevation="0" class="team-card overflow-hidden mb-15 ">
+            <v-card elevation="0" class="team-card overflow-hidden mb-15">
               <div class="social-overlay">
                 <v-img
                   class="profile-pic"
@@ -94,8 +94,8 @@
                 <p class="team-subtitle">Vice-président</p>
               </div>
               <p>
-                Célibataire sans enfants. Planqué toute l'année mais néamoins
-                fidèle au poste. S'il s'agit d'alcool il est motivé, sinon bof.
+                Planqué toute l'année mais néamoins fidèle au poste. S'il s'agit
+                d'alcool il est motivé, sinon bof.
               </p>
             </v-card>
           </v-col>
@@ -251,7 +251,7 @@ export default {
   data() {
     return {};
   },
-  methods: {}
+  methods: {},
 };
 </script>
 
