@@ -102,7 +102,7 @@ export default {
           day: "Dimanche",
           date: "18",
           title: "Olympiade TC/GE",
-          content: "Montrer à GE qui sait les plus forts",
+          content: "Montrer à GE qui c'est les plus forts",
           image: "olympiade",
           link: "#TcOlympiade"
         },
