@@ -23,19 +23,19 @@
           <v-col v-for="(item, i) in items" :key="i" cols="12" md="6" lg="4">
             <v-card elevation="0" class="blog-card overflow-hidden mb-15">
               <div class="position-relative mb-15">
-                <a :href="item.link">
+                <nuxt-link :to="item.link">
                   <v-img
                     :src="getImgUrl(item.image)"
                     alt="blog"
                     class="blog-img"
                   />
-                </a>
+                </nuxt-link>
                 <div class="date-badge bg-info-grediant-tc">
                   {{ item.day }} <span> {{ item.date }} </span>
                 </div>
               </div>
               <div>
-                <a
+                <nuxt-link
                   :to="item.link"
                   class="
                     blog-title
@@ -44,7 +44,7 @@
                   "
                 >
                   {{ item.title }}
-                </a>
+                </nuxt-link>
                 <p class="mt-10 mb-10">
                   {{ item.content }}
                 </p>
@@ -112,7 +112,7 @@ export default {
           title: "WEI",
           content: "Le meilleur moment de votre inté",
           image: "wei",
-          link: "/wei"
+          link: "wei"
         }
       ]
     };

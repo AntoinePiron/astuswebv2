@@ -14,8 +14,7 @@
               </h2>
               <p>
                 Journée pour apprendre à connaître vos parrains/marraines et
-                leurs posés toutes les fonctions que vous voulez avant la
-                rentrée.
+                leurs poser toutes les questions que vous voulez.
               </p>
             </div>
           </v-col>
