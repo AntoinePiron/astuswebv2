@@ -14,7 +14,7 @@
               </h2>
               <p>
                 Vous allez passer la journée à jouer au paint ball, on vous
-                offre deux parties gratuite. Vous pouvez ensuite rejouer mais à
+                offre deux parties gratuites. Vous pouvez ensuite rejouer mais à
                 vos frais.
               </p>
             </div>
