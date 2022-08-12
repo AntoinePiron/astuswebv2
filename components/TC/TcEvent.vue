@@ -12,8 +12,8 @@
                 La vie en TC
               </h2>
               <p>
-                Vous pouvez consulter les différentes section de la vie dans
-                votre département pour vous préparer à tous les évenements qui
+                Vous pouvez consulter les différentes sections de la vie dans
+                votre département pour vous préparer à tous les événements qui
                 vont arriver dans l'année !
               </p>
             </div>
