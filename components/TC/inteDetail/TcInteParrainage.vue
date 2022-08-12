@@ -14,7 +14,7 @@
               </h2>
               <p>
                 Journée pour apprendre à connaître vos parrains/marraines et
-                leurs poser toutes les questions que vous voulez.
+                leur poser toutes les questions que vous voulez.
               </p>
             </div>
           </v-col>
@@ -53,7 +53,8 @@ export default {
     items: [
       {
         title: "Aprem",
-        content: "Activités pour apprendre son/sa futur(e) 4A préféré",
+        content:
+          "Activités pour apprendre à connaître son/sa futur(e) 4A préféré",
         icon: "mdi-baseball"
       },
       {
