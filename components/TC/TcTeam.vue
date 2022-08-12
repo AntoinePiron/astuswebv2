@@ -249,9 +249,20 @@
 export default {
   name: "TcTeam",
   data() {
-    return {};
+    return {
+      members: [
+        {
+          name: "Antoine",
+          profil_pic: "",
+          fqcebook: "",
+          insta: "",
+          role: "",
+          description: ""
+        }
+      ]
+    };
   },
-  methods: {},
+  methods: {}
 };
 </script>
 
