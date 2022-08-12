@@ -232,10 +232,10 @@
               Mais ce n'est pas tout !
             </h2>
             <p class="astus-description">
-              Que serait l'Astus sans son équipe ? Evènements, Entreprise,
+              Que serait l'Astus sans son équipe ? Événements, Entreprise,
               Communication sans eux l'association ne pourrait absolument pas
-              tourner ! Vous aurez la joie de les découvirs à travers les
-              différents évenements organisés par les équipes tous le long de
+              tourner ! Vous aurez la joie de les découvrir à travers les
+              différents événements organisés par les équipes tout le long de
               l'année.
             </p>
           </div>
@@ -251,7 +251,7 @@ export default {
   data() {
     return {};
   },
-  methods: {},
+  methods: {}
 };
 </script>
 
