@@ -6,8 +6,8 @@
           <div class="text-center">
             <p>
               L'ASTUS organise aussi des évènements un peu plus sérieux, pour
-              vous permettre d'avoir un premier contact avec entreprises le plus
-              tôt possible :
+              vous permettre d'avoir un premier contact avec différentes
+              entreprises le plus tôt possible :
             </p>
           </div>
         </v-col>
@@ -48,7 +48,7 @@ export default {
         {
           name: "Visite d’entreprise",
           desc:
-            "Le SNEF l’année passé. Ces visites permettent de découvrir le monde de l’entreprise et de voir des applications directs de ce qui est abordé en cours"
+            "Le SNEF l’année passé. Ces visites permettent de découvrir le monde de l’entreprise et de voir des applications directes de ce qui est abordé en cours"
         },
         {
           name: "Afterwork",
@@ -56,14 +56,14 @@ export default {
             "quoi de mieux que de partager un verre avec des professionnels pour pouvoir discuter dans une atmosphère sympa ?"
         },
         {
-          name: "Simulation d’entretien",
+          name: "Simulation d’entretiens",
           desc:
-            "Des employés de différentes entreprise du monde des télécoms viennent vous faire passer des entretiens fictifs pour vous entraîner et tester votre CV"
+            "Des employés de différentes entreprises du monde des télécoms viennent vous faire passer des entretiens fictifs pour vous entraîner et tester votre CV"
         },
         {
-          name: "Forum des entreprise",
+          name: "Forum des entreprises",
           desc:
-            "Très gros événement du début d’année c’est un forum ou différentes entreprise viennent se présenter. Idéal pour commencer à aborder le monde du travail voir déjà réfléchir a votre futur stage"
+            "Très gros événement du début d’année c’est un forum où différentes entreprises viennent se présenter. Idéal pour commencer à aborder le monde du travail voire déjà réfléchir à votre futur stage"
         }
       ]
     };
