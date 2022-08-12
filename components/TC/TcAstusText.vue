@@ -12,7 +12,7 @@
               Il s'agit de l'Association des élèves du département. Nous avons 2
               missions : organiser la vie extra-scolaire des élèves ainsi que de
               maintenir un contact privilégié avec les entreprises partenaires.
-              Ces deux missions donnent lieu à différents évènements tous le
+              Ces deux missions donnent lieu à différents évènements tout le
               long de l'année.
             </p>
           </div>
