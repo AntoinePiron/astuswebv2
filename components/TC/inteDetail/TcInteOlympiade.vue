@@ -13,7 +13,7 @@
                 Olympiade
               </h2>
               <p>
-                Une compétition sportive entre les TC et les GE suivi d'un
+                Une compétition sportive entre les TC et les GE suivie d'un
                 repas.
               </p>
             </div>

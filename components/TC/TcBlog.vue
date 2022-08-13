@@ -70,7 +70,7 @@ export default {
           day: "Lundi à mercredi",
           date: "12-14",
           title: "Découverte",
-          content: "Évenement chills pour apprendre à se connaître",
+          content: "Événements chills pour apprendre à se connaître",
           image: "welcome",
           link: "#TcWelcome"
         },

@@ -7,8 +7,9 @@
             <h2 class="ui-title font-weight-bold">Les évènements</h2>
             <p>
               Tout au long de l'année l'ASTUS a pour objectif de régaler les
-              membres du départements avec des évènements festifs. Nous allons revenir sur chacun d'entre eux pour vous
-              mettre l'eau à la bouche !
+              membres du département avec des évènements festifs. Nous allons
+              revenir sur chacun d'entre eux pour vous mettre l'eau à la bouche
+              !
             </p>
           </div>
         </v-col>
@@ -49,7 +50,7 @@ export default {
         {
           name: "WEI",
           desc:
-            "L'événement de début d'année à ne surtout pas rater. En TC nous avons la chance de le réaliser sur 3 jours (jeudi à samedi). Au programme : des jeux, de la baignade et des moments de convivialités."
+            "L'événement de début d'année à ne surtout pas rater. En TC nous avons la chance de le réaliser sur 3 jours (jeudi à samedi). Au programme : des jeux, de la baignade et des moments de convivialité."
         },
         {
           name: "POT",

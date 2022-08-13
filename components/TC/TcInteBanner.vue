@@ -9,9 +9,9 @@
           <div class="text-center">
             <h2 class="ui-title font-weight-bold">L'INTEGRATION ?</h2>
             <p class="color-white">
-              Un des meilleurs moments de l'année, ou vous allez découvrir les
-              gens du départ, vos magnifiques marraines/parrains et tout plein
-              de gens. Concrétement c'est un mix entre évenements (bouffe,
+              Un des meilleurs moments de l'année, où vous allez découvrir les
+              gens du département, vos magnifiques marraines/parrains et tout
+              plein de gens. Concrètement c'est un mix entre événements (bouffe,
               activité etc) et soirées.
             </p>
           </div>
@@ -30,7 +30,7 @@ export default {
   data() {
     return {};
   },
-  methods: {},
+  methods: {}
 };
 </script>
 <style>

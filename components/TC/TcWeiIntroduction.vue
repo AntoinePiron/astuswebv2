@@ -18,7 +18,7 @@
               <li>
                 Jeudi 22 septembre : départ à <strong>14 heures</strong> depuis l'INSA.
                 Là un trajet de 2-3 heures pour atteindre le camping.
-                Ensuite déballages du bus, installation des tentes, repas et le super speech du Président. Puis la première soirée du week-end.
+                Ensuite on vide le bus, installation des tentes, repas et le super speech du Président. Puis la première soirée du week-end.
               </li>
               <li>
                 Vendredi 23 septembre : une journée complète au camping avec plusieurs possibilités d'activités :

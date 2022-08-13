@@ -115,11 +115,11 @@
                 <p class="mt-10 mb-8">
                   Prévoir des vêtements en fonctions de la météo que l'on
                   communiquera plusieurs jours à l'avance. Si beau temps ne pas
-                  oublier des affaires de sports pour faire des activitées !
-                  Puis la trousse de toilettes basiques bien évidemment. Ça
-                  reste du camping : ne vous chargez pas trop et
+                  oublier des affaires de sports pour faire des activités ! Puis
+                  la trousse de toilettes basique bien évidemment. Ça reste du
+                  camping : ne vous chargez pas trop et
                   <span style="color : red"
-                    >évitez au maximum les affaires de valeurs:</span
+                    >évitez au maximum les affaires de valeurs.</span
                   >
                 </p>
                 <a

@@ -19,7 +19,7 @@
               N'oubliez pas de consulter la
               <a href="#notForgot">liste des choses à ne pas oublier</a> en bas
               de la page ! <br />
-              Les dates d'inscriptions vous serons communiquée ultérieurement.
+              Les dates d'inscriptions vous seront communiquées ultérieurement.
             </p>
           </div>
         </v-col>

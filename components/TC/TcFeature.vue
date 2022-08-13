@@ -42,8 +42,8 @@
                 <p class="mt-10 mb-8">
                   C'est un pilier important pour la plupart des métiers qui nous
                   attendent à la sortie de l'école. Il va consister en
-                  l'apprentissage de nombreux langages de programmations à
-                  travers différents projets concrets mais aussi le
+                  l'apprentissage de nombreux langages de programmation à
+                  travers différents projets concrets, mais aussi le
                   développement d'un site web en 3e année.
                 </p>
               </v-card-text>
@@ -59,7 +59,7 @@
                 <p class="mt-10 mb-8">
                   Qu'est-ce qu'un protocole de communication ? Comment on
                   connecte deux machines ensemble afin de les faire discuter ?
-                  Vous allez découvir les protocoles réseaux, comment ils
+                  Vous allez découvrir les protocoles réseaux, comment ils
                   fonctionnent et vous allez câbler des switchs (pas la console
                   déso)!
                 </p>
@@ -80,7 +80,7 @@
                   est pas dans la physique théorique (La 2A .. L'Elecmag ..)
                   mais vraiment dans comprendre comment fonctionne les canaux de
                   transmissions pour faire passer des données sur un support
-                  physique:
+                  physique.
                 </p>
               </v-card-text>
             </v-card>
@@ -100,8 +100,8 @@
                   CTC c'est Culture TéléCommunication : sur l'année il faut
                   rendre une revue de presse et un dossier à thème. Ça permet de
                   rester informé sur notre secteur. Le théâtre c'est trop bien :
-                  il s'agit de petit exercice pour s'améliorer lors de prises de
-                  paroles publiques, ce sera directement applicable lors des
+                  il s'agit de petits exercices pour s'améliorer lors de prises
+                  de parole publiques, ce sera directement applicable lors des
                   présentations de CTC.
                 </p>
               </v-card-text>

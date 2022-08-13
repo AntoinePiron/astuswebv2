@@ -13,7 +13,7 @@
                 Découverte
               </h2>
               <p>
-                On sait pas encore trop mais ca va être bien viendez.
+                On sait pas encore trop mais ça va être bien viendez.
               </p>
             </div>
           </v-col>
