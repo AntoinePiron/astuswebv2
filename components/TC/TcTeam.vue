@@ -17,29 +17,30 @@
         </v-row>
 
         <v-row class="mt-13" justify="center">
-          <v-col cols="12" sm="6" md="6" lg="2">
+          <v-col
+            cols="12"
+            sm="6"
+            md="6"
+            lg="2"
+            v-for="(item, i) in members"
+            :key="i"
+          >
             <v-card elevation="0" class="team-card overflow-hidden mb-15">
               <div class="social-overlay">
                 <v-img
                   class="profile-pic"
-                  :src="require('@/assets/images/team/antoine.jpg')"
+                  :src="getImgUrl(item.profil_pic)"
                   alt="team"
                 />
                 <div class="img-overlay">
                   <ul>
                     <li>
-                      <a
-                        href="https://www.facebook.com/antoine.piron.50/"
-                        target="_blank"
-                      >
+                      <a :href="item.facebook" target="_blank">
                         <i class="mdi mdi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://www.instagram.com/antprn/"
-                        target="_blank"
-                      >
+                      <a :href="item.insta" target="_blank">
                         <i class="mdi mdi-instagram"></i>
                       </a>
                     </li>
@@ -48,178 +49,12 @@
               </div>
               <div>
                 <h5 class="team-title font-weight-medium font-18">
-                  Antoine Piron
+                  {{ item.name }}
                 </h5>
-                <p class="team-subtitle">Président</p>
+                <p class="team-subtitle">{{ item.role }}</p>
               </div>
               <p>
-                Spécialiste du détournement de fond et du code il va tenter de
-                vous fournir une inté de qualité avec son équipe.
-              </p>
-            </v-card>
-          </v-col>
-          <v-col cols="12" sm="6" md="6" lg="2">
-            <v-card elevation="0" class="team-card overflow-hidden mb-15">
-              <div class="social-overlay">
-                <v-img
-                  class="profile-pic"
-                  :src="require('@/assets/images/team/nicolas.jpg')"
-                  alt="team"
-                />
-                <div class="img-overlay">
-                  <ul>
-                    <li>
-                      <a
-                        href="https://www.facebook.com/nicolas.guy.31945"
-                        target="_blank"
-                      >
-                        <i class="mdi mdi-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/nicolas_guy01/"
-                        target="_blank"
-                      >
-                        <i class="mdi mdi-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <h5 class="team-title font-weight-medium font-18">
-                  Nicolas Guy
-                </h5>
-                <p class="team-subtitle">Vice-président</p>
-              </div>
-              <p>
-                Planqué toute l'année mais néamoins fidèle au poste. S'il s'agit
-                d'alcool il est motivé, sinon bof.
-              </p>
-            </v-card>
-          </v-col>
-          <v-col cols="12" sm="6" md="6" lg="2">
-            <v-card elevation="0" class="team-card overflow-hidden mb-15">
-              <div class="social-overlay">
-                <v-img
-                  class="profile-pic"
-                  :src="require('@/assets/images/team/rocco.jpg')"
-                  alt="team"
-                />
-                <div class="img-overlay">
-                  <ul>
-                    <li>
-                      <a
-                        href="https://www.facebook.com/rocco.svtr"
-                        target="_blank"
-                      >
-                        <i class="mdi mdi-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/roccosalvatori/"
-                        target="_blank"
-                      >
-                        <i class="mdi mdi-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <h5 class="team-title font-weight-medium font-18">
-                  Rocco Salvatori
-                </h5>
-                <p class="team-subtitle">Secrétaire Général</p>
-              </div>
-              <p>
-                Ses compétences culinaires sont inversement proportionnelles à
-                son charisme. Il est extrêmement charismatique.
-              </p>
-            </v-card>
-          </v-col>
-          <v-col cols="12" sm="6" md="6" lg="2">
-            <v-card elevation="0" class="team-card overflow-hidden mb-15">
-              <div class="social-overlay">
-                <v-img
-                  class="profile-pic"
-                  :src="require('@/assets/images/team/ilona.jpg')"
-                  alt="team"
-                />
-                <div class="img-overlay">
-                  <ul>
-                    <li>
-                      <a
-                        href="https://www.facebook.com/profile.php?id=100009473213767"
-                        target="_blank"
-                      >
-                        <i class="mdi mdi-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/ilona_brst/"
-                        target="_blank"
-                      >
-                        <i class="mdi mdi-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <h5 class="team-title font-weight-medium font-18">
-                  Ilona Brosset
-                </h5>
-                <p class="team-subtitle">Trésorière</p>
-              </div>
-              <p>
-                La seule personne du bureau qui fait des choses sérieuses. La
-                seule personne du bureau qui fait des choppes sérieuses (cf
-                photo)
-              </p>
-            </v-card>
-          </v-col>
-          <v-col cols="12" sm="6" md="6" lg="2">
-            <v-card elevation="0" class="team-card overflow-hidden mb-15">
-              <div class="social-overlay">
-                <v-img
-                  class="profile-pic"
-                  :src="require('@/assets/images/team/claire.jpg')"
-                  alt="team"
-                />
-                <div class="img-overlay">
-                  <ul>
-                    <li>
-                      <a
-                        href="https://www.facebook.com/claire.feral.7"
-                        target="_blank"
-                      >
-                        <i class="mdi mdi-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/claire_feral/"
-                        target="_blank"
-                      >
-                        <i class="mdi mdi-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <h5 class="team-title font-weight-medium font-18">
-                  Claire Feral
-                </h5>
-                <p class="team-subtitle">Vice-trésorière</p>
-              </div>
-              <p>
-                Après on ose dire qu'un vice-président ne fait rien ... Si elle
-                revient au WEC préparez vous.
+                {{ item.description }}
               </p>
             </v-card>
           </v-col>
@@ -249,9 +84,67 @@
 export default {
   name: "TcTeam",
   data() {
-    return {};
+    return {
+      members: [
+        {
+          name: "Antoine Piron",
+          profil_pic: "antoine",
+          facebook: "https://www.facebook.com/antoine.piron.50/",
+          insta: "https://www.instagram.com/antprn/",
+          role: "Président",
+          description:
+            "Spécialiste du détournement de fond et du code il va tenter de " +
+            "vous fournir une inté de qualité avec son équipe."
+        },
+        {
+          name: "Nicolas Guy",
+          profil_pic: "nicolas",
+          facebook: "https://www.facebook.com/nicolas.guy.31945",
+          insta: "https://www.instagram.com/nicolas_guy01/",
+          role: "Vice-président",
+          description:
+            "Planqué toute l'année mais néamoins fidèle au poste. S'il s'agit " +
+            "d'alcool il est motivé, sinon bof."
+        },
+        {
+          name: "Rocco Salvatori",
+          profil_pic: "rocco",
+          facebook: "https://www.facebook.com/rocco.svtr",
+          insta: "https://www.instagram.com/roccosalvatori/",
+          role: "Secrétaire Général",
+          description:
+            "Ses compétences culinaires sont inversement proportionnelles à " +
+            "son charisme. Il est extrêmement charismatique."
+        },
+        {
+          name: "Ilona Brosset",
+          profil_pic: "ilona",
+          facebook: "https://www.facebook.com/profile.php?id=100009473213767",
+          insta: "https://www.instagram.com/ilona_brst/",
+          role: "Trésorière",
+          description:
+            "La seule personne du bureau qui fait des choses sérieuses. La " +
+            "seule personne du bureau qui fait des choppes sérieuses"
+        },
+        {
+          name: "Claire Feral",
+          profil_pic: "claire",
+          facebook: "https://www.facebook.com/claire.feral.7",
+          insta: "https://www.instagram.com/claire_feral/",
+          role: "Vice-trésorière",
+          description:
+            "Après on ose dire qu'un vice-président ne fait rien ... Si elle " +
+            "revient au WEC préparez vous."
+        }
+      ]
+    };
   },
-  methods: {}
+  methods: {
+    getImgUrl(name) {
+      var images = require.context("@/assets/images/team/", false, /\.jpg$/);
+      return images("./" + name + ".jpg");
+    }
+  }
 };
 </script>
 

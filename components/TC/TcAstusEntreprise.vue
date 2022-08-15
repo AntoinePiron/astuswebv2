@@ -53,7 +53,7 @@ export default {
         {
           name: "Afterwork",
           desc:
-            "quoi de mieux que de partager un verre avec des professionnels pour pouvoir discuter dans une atmosphère sympa ?"
+            "Quoi de mieux que de partager un verre avec des professionnels pour pouvoir discuter dans une atmosphère sympa ?"
         },
         {
           name: "Simulation d’entretiens",

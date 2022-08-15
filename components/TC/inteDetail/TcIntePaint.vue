@@ -2,9 +2,6 @@
   <div id="TcPaint">
     <div class="mini-spacer bg-extra-light col-tc">
       <v-container>
-        <!-- -----------------------------------------------
-            Start Pricing Text
-        ----------------------------------------------- -->
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="test">Vendredi <span> 16 </span></div>
@@ -20,10 +17,6 @@
             </div>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Pricing Text
-        ----------------------------------------------- -->
       </v-container>
     </div>
     <div class="timeline-tc">

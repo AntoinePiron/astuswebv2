@@ -2,9 +2,6 @@
   <div>
     <div class="portfolio-component bg-extra-light">
       <v-container>
-        <!-- -----------------------------------------------
-            Start Portfolio Text
-        ----------------------------------------------- -->
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
@@ -19,68 +16,25 @@
             </div>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Portfolio Text
-        ----------------------------------------------- -->
-        <!-- -----------------------------------------------
-            Start Portfolio
-        ----------------------------------------------- -->
         <v-row class="mt-13" justify="center">
-          <v-col cols="12" md="6" lg="4">
+          <v-col cols="12" md="6" lg="4" v-for="(item, i) in items" :key="i">
             <v-card class="portfolio-card overflow-hidden" to="astus">
               <div class="portfolio-img">
                 <img
-                  src="@/assets/images/portfolio/LogoAstus.png"
+                  :src="getImgUrl(item.src)"
                   class="img-fluid"
                   alt="portfolio"
                 />
               </div>
               <v-card-text>
                 <h5 class="font-weight-medium font-18">
-                  L'ASTUS
+                  {{ item.name }}
                 </h5>
-                <p class="font-14 mb-0">Présentation de l'Association</p>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="6" lg="4">
-            <v-card class="portfolio-card overflow-hidden" to="integration">
-              <div class="portfolio-img">
-                <img
-                  src="@/assets/images/portfolio/integration.JPG"
-                  class="img-fluid"
-                  alt="portfolio"
-                />
-              </div>
-              <v-card-text>
-                <h5 class="font-weight-medium font-18">L'intégration</h5>
-                <p class="font-14 mb-0">Le programme de la semaine d'inté</p>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="6" lg="4">
-            <v-card class="portfolio-card overflow-hidden" to="wei">
-              <div class="portfolio-img">
-                <img
-                  src="@/assets/images/portfolio/wei.jpg"
-                  class="img-fluid"
-                  alt="portfolio"
-                />
-              </div>
-              <v-card-text>
-                <h5 class="font-weight-medium font-18">WEI</h5>
-                <p class="font-14 mb-0">
-                  Infos pratiques sur le week-end d'intégration
-                </p>
+                <p class="font-14 mb-0">{{ item.desc }}</p>
               </v-card-text>
             </v-card>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Portfolio
-        ----------------------------------------------- -->
       </v-container>
     </div>
   </div>
@@ -89,8 +43,35 @@
 export default {
   name: "TcEvent",
   data() {
-    return {};
+    return {
+      items: [
+        {
+          name: "L'ASTUS",
+          src: "LogoAstus",
+          desc: "Présentation de l'Association"
+        },
+        {
+          name: "L'intégration",
+          src: "integration",
+          desc: "Le programme de la semaine d'inté"
+        },
+        {
+          name: "WEI",
+          src: "wei",
+          desc: "Infos pratiques sur le week-end d'intégration"
+        }
+      ]
+    };
   },
-  methods: {}
+  methods: {
+    getImgUrl(name) {
+      var images = require.context(
+        "@/assets/images/portfolio/",
+        false,
+        /\.jpg$/
+      );
+      return images("./" + name + ".jpg");
+    }
+  }
 };
 </script>
