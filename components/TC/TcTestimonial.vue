@@ -2,9 +2,6 @@
   <div>
     <div class="testimonial-component bg-extra-light">
       <v-container>
-        <!-- -----------------------------------------------
-            Start Testimonial Text
-        ----------------------------------------------- -->
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
@@ -18,13 +15,6 @@
             </div>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Testimonial Text
-        ----------------------------------------------- -->
-        <!-- -----------------------------------------------
-            Start Testimonial
-        ----------------------------------------------- -->
         <v-row class="mt-13" justify="center">
           <v-col cols="12" md="6" lg="4" v-for="(item, i) in items" :key="i">
             <v-card class="testimonial-card card-shadow">
@@ -64,10 +54,6 @@
             </v-card>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Testimonial
-        ----------------------------------------------- -->
       </v-container>
     </div>
   </div>

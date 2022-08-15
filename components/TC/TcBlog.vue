@@ -2,9 +2,6 @@
   <div>
     <div class="blog-component mini-spacer">
       <v-container>
-        <!-- -----------------------------------------------
-            Start Blog Text
-        ----------------------------------------------- -->
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
@@ -12,13 +9,6 @@
             </div>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Blog Text
-        ----------------------------------------------- -->
-        <!-- -----------------------------------------------
-            Start Blog
-        ----------------------------------------------- -->
         <v-row class="mt-13" justify="center">
           <v-col v-for="(item, i) in items" :key="i" cols="12" md="6" lg="4">
             <v-card elevation="0" class="blog-card overflow-hidden mb-15">
@@ -52,10 +42,6 @@
             </v-card>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Blog
-        ----------------------------------------------- -->
       </v-container>
     </div>
   </div>

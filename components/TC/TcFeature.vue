@@ -2,9 +2,6 @@
   <div>
     <div class="feature1-component mini-spacer">
       <v-container>
-        <!-- -----------------------------------------------
-            Start Feature 1 Text
-        ----------------------------------------------- -->
         <v-row justify="center">
           <v-col cols="12" md="10" lg="7">
             <div class="text-center">
@@ -39,10 +36,6 @@
             </v-card>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Feature 1
-        ----------------------------------------------- -->
       </v-container>
     </div>
   </div>

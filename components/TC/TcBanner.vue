@@ -2,9 +2,6 @@
   <div>
     <div class="bannerTC-component">
       <v-container>
-        <!-- -----------------------------------------------
-            Start Banner1
-        ----------------------------------------------- -->
         <v-row justify="center">
           <v-col cols="12" md="7" lg="6" class="d-flex align-center">
             <div class="text-center text-md-left">
@@ -37,10 +34,6 @@
             />
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Banner1
-        ----------------------------------------------- -->
       </v-container>
     </div>
   </div>

@@ -15,21 +15,16 @@
           </v-col>
         </v-row>
         <v-row justify="center" class="mt-13">
-          <v-col cols="12" md="6">
+          <v-col cols="12" md="6" v-for="(item, i) in features" :key="i">
             <v-card elevation="0">
               <v-card-text>
                 <div class="icon-round">
-                  <i class="mdi mdi-tent"></i>
+                  <i :class="'mdi mdi-' + item.logo"></i>
                 </div>
-                <h5 class="font-weight-medium font-18">Une tente</h5>
-                <p class="mt-10 mb-8">
-                  Dans la mesure du possible, il serait idéal de ramener une
-                  tente. Plus on en a plus simple sera l'organisation. Donc si
-                  vous voulez faciliter la vie de vos futurs 4A favoris merci de
-                  ramener ça à la rentrée ❤️
-                </p>
+                <h5 class="font-weight-medium font-18">{{ item.name }}</h5>
+                <p class="mt-10 mb-8" v-html="item.desc"></p>
                 <a
-                  href="https://www.youtube.com/watch?v=a1dHDVjwMSY"
+                  :href="item.link"
                   target="_blank"
                   class="
                     text-themecolor
@@ -39,111 +34,12 @@
                     align-center
                   "
                 >
-                  Vous en aurez besoin <i class="mdi mdi-arrow-right"></i>
-                </a>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="6">
-            <v-card elevation="0">
-              <v-card-text>
-                <div class="icon-round bg-light-info">
-                  <i class="mdi mdi-pool"></i>
-                </div>
-                <h5 class="font-weight-medium font-18">
-                  Des affaires de bains
-                </h5>
-                <p class="mt-10 mb-8">
-                  Si vous voulez profiter de la baignade, cela peut s'avérer
-                  très utile.
-                </p>
-                <a
-                  href="https://youtu.be/zd7c5tQCs1I?t=23"
-                  target="_blank"
-                  class="
-                    text-themecolor
-                    linking
-                    text-decoration-none
-                    d-flex
-                    align-center
-                  "
-                >
-                  On attend plus de talent de votre part
-                  <i class="mdi mdi-arrow-right"></i>
-                </a>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="6">
-            <v-card elevation="0">
-              <v-card-text>
-                <div class="icon-round bg-light-info">
-                  <i class="mdi mdi-shoe-print"></i>
-                </div>
-                <h5 class="font-weight-medium font-18">
-                  Tes Claquettes
-                </h5>
-                <p class="mt-10 mb-8">
-                  T'as Compris ?
-                </p>
-                <a
-                  href="https://www.youtube.com/watch?v=umDr0mPuyQc"
-                  target="_blank"
-                  class="
-                    text-themecolor
-                    linking
-                    text-decoration-none
-                    d-flex
-                    align-center
-                  "
-                >
-                  Déso
-                  <i class="mdi mdi-arrow-right"></i>
-                </a>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="6">
-            <v-card elevation="0">
-              <v-card-text>
-                <div class="icon-round bg-light-info">
-                  <i class="mdi mdi-bag-personal"></i>
-                </div>
-                <h5 class="font-weight-medium font-18">
-                  Vêtements / affaires de toilettes
-                </h5>
-                <p class="mt-10 mb-8">
-                  Prévoir des vêtements en fonctions de la météo que l'on
-                  communiquera plusieurs jours à l'avance. Si beau temps ne pas
-                  oublier des affaires de sports pour faire des activités ! Puis
-                  la trousse de toilettes basique bien évidemment. Ça reste du
-                  camping : ne vous chargez pas trop et
-                  <span style="color : red"
-                    >évitez au maximum les affaires de valeurs.</span
-                  >
-                </p>
-                <a
-                  href="https://www.youtube.com/watch?v=kZNtdck3T3A"
-                  target="_blank"
-                  class="
-                    text-themecolor
-                    linking
-                    text-decoration-none
-                    d-flex
-                    align-center
-                  "
-                >
-                  On évite ça s'il vous plaît
-                  <i class="mdi mdi-arrow-right"></i>
+                  {{ item.linkphrase }} <i class="mdi mdi-arrow-right"></i>
                 </a>
               </v-card-text>
             </v-card>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Feature 1
-        ----------------------------------------------- -->
       </v-container>
     </div>
   </div>
@@ -152,7 +48,50 @@
 export default {
   name: "Feature1",
   data() {
-    return {};
+    return {
+      features: [
+        {
+          name: "Une tente",
+          logo: "tent",
+          desc:
+            "Dans la mesure du possible, il serait idéal de ramener une " +
+            "tente. Plus on en a plus simple sera l'organisation. Donc si " +
+            "vous voulez faciliter la vie de vos futurs 4A favoris merci de " +
+            "ramener ça à la rentrée ❤️",
+          link: "https://www.youtube.com/watch?v=a1dHDVjwMSY",
+          linkphrase: "Vous en aurez besoin"
+        },
+        {
+          name: "Des affaires de bains",
+          logo: "pool",
+          desc:
+            "Si vous voulez profiter de la baignade, cela peut s'avérer " +
+            "très utile.",
+          link: "https://youtu.be/zd7c5tQCs1I?t=23",
+          linkphrase: "On attend plus de talent de votre part"
+        },
+        {
+          name: "Tes Claquettes",
+          logo: "shoe-print",
+          desc: "T'as Compris ?",
+          link: "https://www.youtube.com/watch?v=umDr0mPuyQc",
+          linkphrase: "Déso"
+        },
+        {
+          name: "Vêtements / affaires de toilettes",
+          logo: "bag-personal",
+          desc:
+            "Prévoir des vêtements en fonctions de la météo que l'on " +
+            "communiquera plusieurs jours à l'avance. Si beau temps ne pas " +
+            "oublier des affaires de sports pour faire des activités ! Puis " +
+            "la trousse de toilettes basique bien évidemment. Ça reste du " +
+            "camping : ne vous chargez pas trop et " +
+            '<span style="color : red" >évitez au maximum les affaires de valeurs.</span>',
+          link: "https://www.youtube.com/watch?v=kZNtdck3T3A",
+          linkphrase: "On évite ça s'il vous plaît"
+        }
+      ]
+    };
   },
   methods: {}
 };

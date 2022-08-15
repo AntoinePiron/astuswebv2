@@ -1,9 +1,6 @@
 <template>
   <div class="bg-wei">
     <v-container>
-      <!-- -----------------------------------------------
-            Start Form Feature Text
-        ----------------------------------------------- -->
       <v-row justify="center">
         <v-col cols="12" sm="10" md="9" lg="7">
           <div class="text-center">
@@ -24,10 +21,6 @@
           </div>
         </v-col>
       </v-row>
-
-      <!-- -----------------------------------------------
-            End Form Feature Text
-        ----------------------------------------------- -->
     </v-container>
   </div>
 </template>
