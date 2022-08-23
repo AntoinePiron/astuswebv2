@@ -18,7 +18,7 @@
         </v-row>
         <v-row class="mt-13" justify="center">
           <v-col cols="12" md="6" lg="4" v-for="(item, i) in items" :key="i">
-            <v-card class="portfolio-card overflow-hidden" to="astus">
+            <v-card class="portfolio-card overflow-hidden" :to="item.to">
               <div class="portfolio-img">
                 <img
                   :src="getImgUrl(item.src)"
@@ -48,17 +48,20 @@ export default {
         {
           name: "L'ASTUS",
           src: "LogoAstus",
-          desc: "Présentation de l'Association"
+          desc: "Présentation de l'Association",
+          to: "astus"
         },
         {
           name: "L'intégration",
           src: "integration",
-          desc: "Le programme de la semaine d'inté"
+          desc: "Le programme de la semaine d'inté",
+          to: "integration"
         },
         {
           name: "WEI",
           src: "wei",
-          desc: "Infos pratiques sur le week-end d'intégration"
+          desc: "Infos pratiques sur le week-end d'intégration",
+          to: "wei"
         }
       ]
     };
