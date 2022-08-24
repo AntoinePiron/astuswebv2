@@ -18,20 +18,22 @@
         </v-row>
         <v-row class="mt-13" justify="center">
           <v-col cols="12" md="6" lg="4" v-for="(item, i) in items" :key="i">
-            <v-card class="portfolio-card overflow-hidden" :to="item.to">
-              <div class="portfolio-img">
-                <img
-                  :src="getImgUrl(item.src)"
-                  class="img-fluid"
-                  alt="portfolio"
-                />
-              </div>
-              <v-card-text>
-                <h5 class="font-weight-medium font-18">
-                  {{ item.name }}
-                </h5>
-                <p class="font-14 mb-0">{{ item.desc }}</p>
-              </v-card-text>
+            <v-card class="portfolio-card overflow-hidden">
+              <nuxt-link :to="item.to" class="text-decoration-none">
+                <div class="portfolio-img">
+                  <img
+                    :src="getImgUrl(item.src)"
+                    class="img-fluid"
+                    alt="portfolio"
+                  />
+                </div>
+                <v-card-text>
+                  <h5 class="font-weight-medium font-18">
+                    {{ item.name }}
+                  </h5>
+                  <p class="font-14 mb-0 description">{{ item.desc }}</p>
+                </v-card-text></nuxt-link
+              >
             </v-card>
           </v-col>
         </v-row>
@@ -78,3 +80,5 @@ export default {
   }
 };
 </script>
+
+<style scoped></style>
