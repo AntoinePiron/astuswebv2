@@ -63,10 +63,10 @@ export default {
         {
           day: "Jeudi",
           date: "15",
-          title: "Parrains/bizs",
-          content: "Apprendre à connaître ta/ton marraine/parrain",
-          image: "parrainage",
-          link: "#TcParrainage"
+          title: "Journée Interdepart",
+          content: "Rencontrer les départs moins bien",
+          image: "interdepart",
+          link: "#TcInterdepart"
         },
         {
           day: "Vendredi",
@@ -79,10 +79,10 @@ export default {
         {
           day: "Samedi",
           date: "17",
-          title: "Journée Interdepart",
-          content: "Rencontrer les départs moins bien",
-          image: "interdepart",
-          link: "#TcInterdepart"
+          title: "Parrains/bizs",
+          content: "Apprendre à connaître ta/ton marraine/parrain",
+          image: "parrainage",
+          link: "#TcParrainage"
         },
         {
           day: "Dimanche",

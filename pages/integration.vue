@@ -28,9 +28,9 @@ export default {
     return {
       items: [
         { name: "TcInteWelcome" },
-        { name: "TcInteParrainage" },
-        { name: "TcIntePaint" },
         { name: "TcInteInterdepart" },
+        { name: "TcIntePaint" },
+        { name: "TcInteParrainage" },
         { name: "TcInteOlympiade" }
       ]
     };
